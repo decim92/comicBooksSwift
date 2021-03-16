@@ -3,10 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA0E626D260017D400A63E9F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0E626C260017D400A63E9F /* Constants.swift */; };
+		BA0E6270260022A900A63E9F /* ComicAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0E626F260022A900A63E9F /* ComicAPI.swift */; };
+		BA0E62792600239300A63E9F /* ComicListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0E62782600239300A63E9F /* ComicListViewModel.swift */; };
+		BA0E627F2600242C00A63E9F /* ComicListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0E627E2600242C00A63E9F /* ComicListView.swift */; };
+		BA0E62892600263E00A63E9F /* Comic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0E62882600263E00A63E9F /* Comic.swift */; };
+		BA0E628F26002C5500A63E9F /* IssueDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0E628B26002C5500A63E9F /* IssueDetail.swift */; };
+		BA0E629026002C5500A63E9F /* Credit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0E628C26002C5500A63E9F /* Credit.swift */; };
+		BA0E629126002C5500A63E9F /* ComicImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0E628D26002C5500A63E9F /* ComicImage.swift */; };
+		BA0E629226002C5500A63E9F /* ComicVolume.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0E628E26002C5500A63E9F /* ComicVolume.swift */; };
+		BA0E6296260039C700A63E9F /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0E6295260039C700A63E9F /* LoadingView.swift */; };
+		BA0E629A260039E400A63E9F /* LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0E6299260039E400A63E9F /* LoadingIndicator.swift */; };
 		BA30C26C260010E0001F7C5F /* Comic_BooksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA30C26B260010E0001F7C5F /* Comic_BooksApp.swift */; };
 		BA30C26E260010E0001F7C5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA30C26D260010E0001F7C5F /* ContentView.swift */; };
 		BA30C270260010E1001F7C5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA30C26F260010E1001F7C5F /* Assets.xcassets */; };
@@ -18,6 +29,17 @@
 		052D622A084DD0585797FC5B /* Pods-Comic Books.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Comic Books.release.xcconfig"; path = "Target Support Files/Pods-Comic Books/Pods-Comic Books.release.xcconfig"; sourceTree = "<group>"; };
 		42D3DCB0DAB620D580B53E21 /* Pods_Comic_Books.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Comic_Books.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC21FF9D0E6A91C6CBC5202D /* Pods-Comic Books.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Comic Books.debug.xcconfig"; path = "Target Support Files/Pods-Comic Books/Pods-Comic Books.debug.xcconfig"; sourceTree = "<group>"; };
+		BA0E626C260017D400A63E9F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BA0E626F260022A900A63E9F /* ComicAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicAPI.swift; sourceTree = "<group>"; };
+		BA0E62782600239300A63E9F /* ComicListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicListViewModel.swift; sourceTree = "<group>"; };
+		BA0E627E2600242C00A63E9F /* ComicListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicListView.swift; sourceTree = "<group>"; };
+		BA0E62882600263E00A63E9F /* Comic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comic.swift; sourceTree = "<group>"; };
+		BA0E628B26002C5500A63E9F /* IssueDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssueDetail.swift; sourceTree = "<group>"; };
+		BA0E628C26002C5500A63E9F /* Credit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Credit.swift; sourceTree = "<group>"; };
+		BA0E628D26002C5500A63E9F /* ComicImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComicImage.swift; sourceTree = "<group>"; };
+		BA0E628E26002C5500A63E9F /* ComicVolume.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComicVolume.swift; sourceTree = "<group>"; };
+		BA0E6295260039C700A63E9F /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		BA0E6299260039E400A63E9F /* LoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicator.swift; sourceTree = "<group>"; };
 		BA30C268260010E0001F7C5F /* Comic Books.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Comic Books.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA30C26B260010E0001F7C5F /* Comic_BooksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comic_BooksApp.swift; sourceTree = "<group>"; };
 		BA30C26D260010E0001F7C5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,7 +66,6 @@
 				AC21FF9D0E6A91C6CBC5202D /* Pods-Comic Books.debug.xcconfig */,
 				052D622A084DD0585797FC5B /* Pods-Comic Books.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -54,6 +75,52 @@
 				42D3DCB0DAB620D580B53E21 /* Pods_Comic_Books.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA0E62732600234100A63E9F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BA0E62882600263E00A63E9F /* Comic.swift */,
+				BA0E628D26002C5500A63E9F /* ComicImage.swift */,
+				BA0E628E26002C5500A63E9F /* ComicVolume.swift */,
+				BA0E628C26002C5500A63E9F /* Credit.swift */,
+				BA0E628B26002C5500A63E9F /* IssueDetail.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BA0E62772600238700A63E9F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BA0E62782600239300A63E9F /* ComicListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BA0E627B260023B800A63E9F /* API */ = {
+			isa = PBXGroup;
+			children = (
+				BA0E626F260022A900A63E9F /* ComicAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		BA0E627C260023CB00A63E9F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BA0E626C260017D400A63E9F /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		BA0E627D2600242000A63E9F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BA0E627E2600242C00A63E9F /* ComicListView.swift */,
+				BA0E6295260039C700A63E9F /* LoadingView.swift */,
+				BA0E6299260039E400A63E9F /* LoadingIndicator.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		BA30C25F260010E0001F7C5F = {
@@ -77,6 +144,11 @@
 		BA30C26A260010E0001F7C5F /* Comic Books */ = {
 			isa = PBXGroup;
 			children = (
+				BA0E627D2600242000A63E9F /* Views */,
+				BA0E627C260023CB00A63E9F /* Utilities */,
+				BA0E627B260023B800A63E9F /* API */,
+				BA0E62772600238700A63E9F /* ViewModels */,
+				BA0E62732600234100A63E9F /* Models */,
 				BA30C26B260010E0001F7C5F /* Comic_BooksApp.swift */,
 				BA30C26D260010E0001F7C5F /* ContentView.swift */,
 				BA30C26F260010E1001F7C5F /* Assets.xcassets */,
@@ -105,6 +177,7 @@
 				BA30C264260010E0001F7C5F /* Sources */,
 				BA30C265260010E0001F7C5F /* Frameworks */,
 				BA30C266260010E0001F7C5F /* Resources */,
+				65359388E0792DDFE8D415F7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +233,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		65359388E0792DDFE8D415F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Comic Books/Pods-Comic Books-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Comic Books/Pods-Comic Books-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Comic Books/Pods-Comic Books-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C815D787EF796817A3B3EDE1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -190,7 +280,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA30C26E260010E0001F7C5F /* ContentView.swift in Sources */,
+				BA0E62892600263E00A63E9F /* Comic.swift in Sources */,
 				BA30C26C260010E0001F7C5F /* Comic_BooksApp.swift in Sources */,
+				BA0E629026002C5500A63E9F /* Credit.swift in Sources */,
+				BA0E6270260022A900A63E9F /* ComicAPI.swift in Sources */,
+				BA0E62792600239300A63E9F /* ComicListViewModel.swift in Sources */,
+				BA0E627F2600242C00A63E9F /* ComicListView.swift in Sources */,
+				BA0E628F26002C5500A63E9F /* IssueDetail.swift in Sources */,
+				BA0E626D260017D400A63E9F /* Constants.swift in Sources */,
+				BA0E629A260039E400A63E9F /* LoadingIndicator.swift in Sources */,
+				BA0E629126002C5500A63E9F /* ComicImage.swift in Sources */,
+				BA0E6296260039C700A63E9F /* LoadingView.swift in Sources */,
+				BA0E629226002C5500A63E9F /* ComicVolume.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

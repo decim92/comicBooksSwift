@@ -6,5 +6,7 @@ target 'Comic Books' do
   use_frameworks!
 
   # Pods for Comic Books
+  pod 'Alamofire'
+  pod 'SwiftyJSON'
 
 end
