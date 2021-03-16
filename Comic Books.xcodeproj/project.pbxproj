@@ -22,6 +22,9 @@
 		BA30C26E260010E0001F7C5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA30C26D260010E0001F7C5F /* ContentView.swift */; };
 		BA30C270260010E1001F7C5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA30C26F260010E1001F7C5F /* Assets.xcassets */; };
 		BA30C273260010E1001F7C5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA30C272260010E1001F7C5F /* Preview Assets.xcassets */; };
+		BA6216E3260106C700F709B7 /* IssueDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6216E2260106C700F709B7 /* IssueDetailView.swift */; };
+		BA6216E626010CCE00F709B7 /* IssueDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6216E526010CCE00F709B7 /* IssueDetailViewModel.swift */; };
+		BA6216EE260113E300F709B7 /* IssueDetailAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6216ED260113E300F709B7 /* IssueDetailAPI.swift */; };
 		E3058BE8B43FEE241FF5D191 /* Pods_Comic_Books.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42D3DCB0DAB620D580B53E21 /* Pods_Comic_Books.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +49,9 @@
 		BA30C26F260010E1001F7C5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA30C272260010E1001F7C5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BA30C274260010E1001F7C5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6216E2260106C700F709B7 /* IssueDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueDetailView.swift; sourceTree = "<group>"; };
+		BA6216E526010CCE00F709B7 /* IssueDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssueDetailViewModel.swift; sourceTree = "<group>"; };
+		BA6216ED260113E300F709B7 /* IssueDetailAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssueDetailAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +98,7 @@
 		BA0E62772600238700A63E9F /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				BA6216E526010CCE00F709B7 /* IssueDetailViewModel.swift */,
 				BA0E62782600239300A63E9F /* ComicListViewModel.swift */,
 			);
 			path = ViewModels;
@@ -100,6 +107,7 @@
 		BA0E627B260023B800A63E9F /* API */ = {
 			isa = PBXGroup;
 			children = (
+				BA6216ED260113E300F709B7 /* IssueDetailAPI.swift */,
 				BA0E626F260022A900A63E9F /* ComicAPI.swift */,
 			);
 			path = API;
@@ -119,6 +127,7 @@
 				BA0E627E2600242C00A63E9F /* ComicListView.swift */,
 				BA0E6295260039C700A63E9F /* LoadingView.swift */,
 				BA0E6299260039E400A63E9F /* LoadingIndicator.swift */,
+				BA6216E2260106C700F709B7 /* IssueDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -284,14 +293,17 @@
 				BA30C26C260010E0001F7C5F /* Comic_BooksApp.swift in Sources */,
 				BA0E629026002C5500A63E9F /* Credit.swift in Sources */,
 				BA0E6270260022A900A63E9F /* ComicAPI.swift in Sources */,
+				BA6216EE260113E300F709B7 /* IssueDetailAPI.swift in Sources */,
 				BA0E62792600239300A63E9F /* ComicListViewModel.swift in Sources */,
 				BA0E627F2600242C00A63E9F /* ComicListView.swift in Sources */,
+				BA6216E3260106C700F709B7 /* IssueDetailView.swift in Sources */,
 				BA0E628F26002C5500A63E9F /* IssueDetail.swift in Sources */,
 				BA0E626D260017D400A63E9F /* Constants.swift in Sources */,
 				BA0E629A260039E400A63E9F /* LoadingIndicator.swift in Sources */,
 				BA0E629126002C5500A63E9F /* ComicImage.swift in Sources */,
 				BA0E6296260039C700A63E9F /* LoadingView.swift in Sources */,
 				BA0E629226002C5500A63E9F /* ComicVolume.swift in Sources */,
+				BA6216E626010CCE00F709B7 /* IssueDetailViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
