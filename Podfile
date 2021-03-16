@@ -8,5 +8,6 @@ target 'Comic Books' do
   # Pods for Comic Books
   pod 'Alamofire'
   pod 'SwiftyJSON'
+  pod 'URLImage'
 
 end

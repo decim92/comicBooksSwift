@@ -1,20 +1,42 @@
 PODS:
   - Alamofire (5.4.0)
   - SwiftyJSON (5.0.0)
+  - URLImage (2.2.3):
+    - URLImage/Common (= 2.2.3)
+    - URLImage/DownloadManager (= 2.2.3)
+    - URLImage/FileIndex (= 2.2.3)
+    - URLImage/ImageDecoder (= 2.2.3)
+    - URLImage/Log (= 2.2.3)
+    - URLImage/PlainDatabase (= 2.2.3)
+    - URLImage/RemoteContentView (= 2.2.3)
+  - URLImage/Common (2.2.3)
+  - URLImage/DownloadManager (2.2.3):
+    - URLImage/Log
+  - URLImage/FileIndex (2.2.3):
+    - URLImage/Common
+    - URLImage/Log
+    - URLImage/PlainDatabase
+  - URLImage/ImageDecoder (2.2.3)
+  - URLImage/Log (2.2.3)
+  - URLImage/PlainDatabase (2.2.3)
+  - URLImage/RemoteContentView (2.2.3)
 
 DEPENDENCIES:
   - Alamofire
   - SwiftyJSON
+  - URLImage
 
 SPEC REPOS:
   trunk:
     - Alamofire
     - SwiftyJSON
+    - URLImage
 
 SPEC CHECKSUMS:
   Alamofire: 3b6a534a3df22db367e4dedeeca73d1ddfcf0e2f
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  URLImage: 1eeb43e09cd736008da21944ba51d433ef41c09d
 
-PODFILE CHECKSUM: e3a23966b8bf731d9b97ca8a90a2672de719499a
+PODFILE CHECKSUM: 03eaaf0c76a1e4e2148f124cff00426a8f03d139
 
 COCOAPODS: 1.8.4
